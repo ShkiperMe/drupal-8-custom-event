@@ -1,0 +1,7 @@
+services:
+  custom_event.log_message:
+    class: Drupal\custom_event\EventSubscriber\CustomEventSubscriber
+    tags:
+    - { name: 'event_subscriber' }
+  custom_event.log_message_service:
+    class: Drupal\custom_event\CustomService

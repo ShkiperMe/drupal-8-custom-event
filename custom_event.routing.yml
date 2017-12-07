@@ -1,0 +1,7 @@
+custom_event.page:
+  path: '/custom-event'
+  defaults:
+    _controller: '\Drupal\custom_event\Controller\CustomEventController::customPage'
+    _title: 'Custom Event in D8'
+  requirements:
+    _permission: 'access content'
